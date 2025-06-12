@@ -510,36 +510,37 @@ ul li {
     body {
         padding: 0 200em;
     }
-    4
-@media all(max-width: 1078px) {
-    .main {
-        flex-direction: column;
-    }
-    
-    main {
-        padding: 5em 0 5em 0;
-    }
-    
-    .body {
-        flex-direction: row;
-    }
-    
-    body {
-        padding: 0 200em;
-    }
-@media all(max-width: 840px) {
-    .main {
-        flex-direction: column;
-    }
-        
-    main {
-        padding: 5em 0 5em 0;
-    }
-        
-    .body {
-        flex-direction: row;
-    }
-        
-    body {
-        padding: 0 200em;
-    }
+
+    4 @media all(max-width: 1078px) {
+        .main {
+            flex-direction: column;
+        }
+
+        main {
+            padding: 5em 0 5em 0;
+        }
+
+        .body {
+            flex-direction: row;
+        }
+
+        body {
+            padding: 0 200em;
+        }
+
+        @media all(max-width: 840px) {
+            .main {
+                flex-direction: column;
+            }
+
+            main {
+                padding: 5em 0 5em 0;
+            }
+
+            .body {
+                flex-direction: row;
+            }
+
+            body {
+                padding: 0 200em;
+            }
